@@ -16,7 +16,7 @@ import java.io.IOException;
 @Slf4j
 @Controller
 @RequestMapping("/spring")
-public class SpringUploadController {
+public class    SpringUploadController {
     @Value("${file.dir}")
     private String fileDir;
 

@@ -24,7 +24,7 @@ import java.util.Collection;
 public class ServletUploadControllerV2 {
 
     @Value("${file.dir}")
-    private String fileDir;
+    private String fileDir; // 프로퍼티에서 파일
 
     @GetMapping("/upload")
     public String newFile() {
